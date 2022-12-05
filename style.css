@@ -13,7 +13,7 @@ body {
 .container {
     position: relative;
     width: 80%;
-    height: 650px;
+    height: 620px;
     margin: 60px auto;
     background-color: rgb(241, 241, 241);
     box-shadow: 5px 5px 15px black;
@@ -37,12 +37,12 @@ body {
     font-size: 32px;
 }
 .nama-card span{
-    padding-right: 10px;
+    padding-right: 100px;
     font-weight: lighter;
 }
 .info-card {
     display: flex;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 20px; 
 }
 .info-card ul {
@@ -80,6 +80,10 @@ footer ul li img {
     .nama-card {
         font-size: 48px;
         margin-top: 65px;
+    }
+    .nama-card span{
+        padding-right: 10px;
+        font-weight: lighter;
     }
     .card img {
         width: 35%;
